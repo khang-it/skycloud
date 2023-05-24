@@ -26,7 +26,7 @@ public class InvoiceController {
 
         String jsonBody = """
                 {
-                    "api_key": "n9cYd69ayg!oBR1gqVYUkbXSpehcXVdc",
+                    "api_key": "fdsfas!dsfas",
                     "ver": "1.1",
                     "op": "invoiceapi",
                     "act": "invoice",
@@ -34,16 +34,16 @@ public class InvoiceController {
                     "id_local": "05MS7M000000094",
                     "action": "add_invoice",
                     "data": {
-                        "username": "api_user",
-                        "password": "hddt@341a",
+                        "username": "weqr",
+                        "password": "weqrqw@erw",
                         "taxCodeDomain": "0305127353",
                         "idInvoice": "",
                         "invDate": "2023-05-16",
                         "cusTaxCode": "0301465224",
                         "cusComCode": "GDIN-BVNN-HCM",
                         "cusName": "Nguyễn Văn A",
-                        "cusComName": "BỆNH VIỆN NHÂN DÂN GIA ĐỊNH",
-                        "cusAddress": "Số 01 Nơ Trang Long, Phường 7, Quận Bình Thạnh, TP. Hồ Chí Minh",
+                        "cusComName": "BỆNH VIỆsfadfN NHÂN DsadfasÂN GIA ĐỊNH",
+                        "cusAddress": "Số 01 dsfNơ Trang Long, Phường 7, Quận Bình Thạnh, TP. Hồ Chí Minh",
                         "cusEmail": "giadinh@gmail.com",
                         "cusBankNumber": "1122334455",
                         "invPayMethod": "CK",
@@ -103,7 +103,7 @@ public class InvoiceController {
         MediaType mediaType = MediaType.parse("application/json");
         RequestBody body = RequestBody.create(jsonBody, mediaType);
         Request request = new Request.Builder()
-                .url("https://0305127353.acconline.vn/invoiceapi.php")
+                .url("https://sdfasd.sdaf.vn/invoiceapi.php")
                 .method("POST", body)
                 .addHeader("Content-Type", "application/json")
                 .build();

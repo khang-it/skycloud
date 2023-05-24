@@ -5,10 +5,10 @@ const addInvoice = () => {
     console.log('add invoice ...' + new Date());
     const ct = document.querySelector('#iContent');
     
-    fetch("https://0305127353.acconline.vn/invoiceapi.php", {
+    fetch("https://fsadf.acconline.vn/invoiceapi.php", {
         method: "POST",
         body: JSON.stringify({
-            "api_key": "n9cYd69ayg!oBR1gqVYUkbXSpehcXVdc",
+            "api_key": "fdsaf!oBR1gqVYUkbXSpehcXVdc",
             "ver": "1.1",
             "op": "invoiceapi",
             "act": "invoice",
@@ -16,8 +16,8 @@ const addInvoice = () => {
             "id_local": "05MS7M000000094",
             "action": "add_invoice",
             "data": {
-                "username": "api_user",
-                "password": "hddt@341a",
+                "username": "dsaf",
+                "password": "dsaf@sd",
                 "taxCodeDomain": "0305127353",
                 "idInvoice": "",
                 "invDate": "2023-05-16",
